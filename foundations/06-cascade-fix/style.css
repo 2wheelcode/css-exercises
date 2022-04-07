@@ -3,9 +3,11 @@
   color: hsl(0, 100%, 50%);
 }
 
+/* Step 2: Remove this selector, and chain it with .child below
 .small-para {
   font-size: 14px;
 }
+*/
 
 .para {
   font-size: 22px;
@@ -24,12 +26,13 @@
   /* Change order .confirm moved below .button */
 } 
 
-.child {
-  color: red;
-  font-size: 14px;
-}
-
 div.text {
   color: green;
   font-size: 22px;
+}
+
+div.child, .small-para {
+  color: red;
+  font-size: 14px;
+  /* Step 3: Added div to .child to separate inheritance */
 }
