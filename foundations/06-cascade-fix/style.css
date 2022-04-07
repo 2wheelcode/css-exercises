@@ -21,6 +21,7 @@
   background: green;
   color: white;
   font-weight: bold;
+  /* Change order .confirm moved below .button */
 } 
 
 .child {
