@@ -1,0 +1,13 @@
+.me, .no-me {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+.me {
+    color: #fff;
+    background-color: #000;
+}
+
+.no-me {
+    color: #000;
+    background-color: #ffff00;
+}
