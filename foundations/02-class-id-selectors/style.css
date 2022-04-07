@@ -1,0 +1,23 @@
+.para {
+    color: #000;
+    font-size: 18px;
+    background-color: #e9967a;
+    font-family: Veranda, "dejaVu Sans", sans-serif;
+}
+
+.cool {
+    font-size: 24px;
+}
+
+#num2 {
+    color: #0000ff;
+    font-size: 36px;
+    font-family: sans-serif;
+}
+
+#num4 {
+    color: #000;
+    background-color: #71e537;
+    font-size: 24px;
+    font-weight: 700;
+}
