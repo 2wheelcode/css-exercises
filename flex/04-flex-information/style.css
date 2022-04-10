@@ -1,5 +1,7 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  /* I added this */
+
 }
 
 img {
@@ -10,22 +12,46 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  /* I added this */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
 }
 
-.barberry { /* I added this */
-
+.plants { /* I added this */
+  display: flex;
+  justify-content: center;
+  gap: 52px;
 }
 
-.chilli { /* I added this */
-
+.barberry, .chilli, .pepper, .saffron { /* I added this */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
 }
 
-.pepper { /* I added this */
-
+/* I started with each plant individually
+.chilli
+ {  
+  display: flex;
+  flex-direction: column;
 }
 
-.saffron { /* I added this */
+.pepper { 
+  display: flex;
+  flex-direction: column;
+}
 
+.saffron { 
+  display: flex;
+  flex-direction: column;
+} */
+
+.text { /* I added this ??? */
+  display: flex;
+  flex-wrap: wrap;
+ 
 }
 
 /* do not edit this footer */
