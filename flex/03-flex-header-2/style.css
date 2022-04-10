@@ -12,6 +12,26 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  /* I added this */
+  display: flex;
+  padding: 10px;
+  justify-content: space-between; 
+}
+
+.left-header { /* I added this */
+  display: flex;
+  /* This was where I started, but didn't work
+  justify-content: flex-start; */
+  align-items: center;
+  gap: 10px;
+}
+/* Would join left & right, but I started jc:fs/fe */
+.right-header { /* I added this */
+  display: flex;
+  /* This was where I started, but didn't work
+  justify-content: flex-end; */
+  align-items: center;
+  gap: 10px;
 }
 
 .profile-image {
@@ -35,6 +55,8 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  /* I added this */
+  flex: 1; /* ? */
 }
 
 a {
@@ -45,4 +67,15 @@ a {
 
 ul {
   list-style-type: none;
+  /* I added this */
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 12px;
+
 }
+/* 
+ li { //I added this, wasn't thinking gap
+   display: flex;
+   justify-content: space-between;
+ } */
