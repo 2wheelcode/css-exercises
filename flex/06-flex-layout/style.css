@@ -18,7 +18,7 @@ button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
-  background: #d3d3d3;
+  background: #eee;
 }
 
 .buttons { /* I added this */
@@ -51,12 +51,11 @@ input {
   justify-content: space-between;
   margin: 0 50px 20px;
   padding: 0 25px;
-  background-color: #d3d3d3;
+  background-color: #eee;
 }
 
 .left-links, .right-links { /* I added this */
   display: flex;
-  
   gap: 12px;
 }
 
@@ -71,3 +70,4 @@ a { /* I added this */
   text-decoration: none;
   color: #000;
 }
+/* Jeesh I complicate $h!t */
