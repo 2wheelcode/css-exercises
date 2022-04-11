@@ -33,16 +33,17 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+  flex-shrink: 0;
 }
 
 .center-container { /* I added this */
   display: flex;
+  flex: 1;
 }
 
 .card-container { /* I added this */
   display: flex;
   flex-wrap: wrap;
-  flex: 1;
   padding: 50px;
   gap: 25px;
 }
@@ -68,3 +69,4 @@ ul, li { /* I added this / */
   flex-direction: column;
   gap: 20px;
 }
+/* Did pretty good on this one */
